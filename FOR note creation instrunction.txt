@@ -1,0 +1,25 @@
+
+
+**Step 1 — I see the image directly**
+
+When you upload an image, I don't convert it to text first. I actually **look at it visually** — the same way you read a screenshot. I can see code, colors, text, layout, everything in the image as-is.
+
+**Step 2 — I understand the content**
+
+I read what's on screen — the Python shell lines, the `>>>` prompts, the inputs, the outputs — and I understand what concept is being demonstrated. For example if I see `random.choice(l1)` returning different values each time, I know it's about random selection.
+
+**Step 3 — I structure the notes**
+
+I don't just copy what I see. I:
+
+- Identify the **main concept** being shown
+- Separate the **what** (what function/syntax) from the **why** (what it does)
+- Pick the most useful examples from the image
+- Add a plain English explanation so it's not just dry code
+- Add a one-line analogy if the concept needs it (like "think of it like shuffling cards")
+
+**Step 4 — I keep it short**
+
+Since you prefer concise notes, I skip anything obvious or repetitive from the image and only keep what actually helps you understand and remember.
+
+**In short** — I see the image visually → understand the concept → rewrite it as clean structured notes, not a copy-paste of what's on screen.
