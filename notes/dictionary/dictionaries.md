@@ -42,3 +42,22 @@ for key, value in chai_types.items():
 ```
 
 `.items()` gives both key and value together directly — no need to manually look up the value.
+
+**`dict.fromkeys(keys, value)`** — create a dictionary from a list of keys with a default value:
+
+```python
+keys = ["Masala", "Ginger", "Lemon"]
+
+dict.fromkeys(keys, "Delicious")
+# → {'Masala': 'Delicious', 'Ginger': 'Delicious', 'Lemon': 'Delicious'}
+```
+
+Every key gets the same default value.
+
+**Passing `keys` as value too:**
+```python
+dict.fromkeys(keys, keys)
+# → {'Masala': ['Masala','Ginger','Lemon'], 'Ginger': [...], 'Lemon': [...]}
+```
+
+Every key's value becomes the entire keys list — same list object assigned to all. Not very useful practically, but shows how `fromkeys` works.
