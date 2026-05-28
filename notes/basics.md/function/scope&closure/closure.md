@@ -1,6 +1,5 @@
-My bad. Here:
+pass= placeholder
 
----
 
 **Step 1 — Nested functions**
 
@@ -11,12 +10,11 @@ inner() = room inside the house
 street = outside all functions
 
 ```
-def outer() {
-    def inner() {   ← room, only accessible from inside house
-    }
-}
+def outer():
+    def inner():   # room, only accessible from inside house
+        pass
 
-inner()  ← ERROR, street doesn't know room exists
+inner()  # ERROR, street doesn't know room exists
 ```
 
 ---
